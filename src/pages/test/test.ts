@@ -76,6 +76,6 @@ export class TestPage {
   );
    
    // stop watch
-  // subscription.unsubscribe();
+  subscription.unsubscribe();
   }
 }
