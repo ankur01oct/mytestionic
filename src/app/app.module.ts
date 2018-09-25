@@ -1,4 +1,5 @@
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { BatteryStatus } from '@ionic-native/battery-status';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -25,7 +26,8 @@ import { MyApp } from './app.component';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    SocialSharing
+    SocialSharing,
+    BatteryStatus
   ]
 })
 export class AppModule {}
